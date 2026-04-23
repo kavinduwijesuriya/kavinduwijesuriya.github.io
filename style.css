@@ -165,7 +165,7 @@ section {
   margin-bottom: 40px;
 }
 
-/* Container */
+/* Layout */
 .goals-container {
   display: flex;
   justify-content: center;
@@ -173,14 +173,14 @@ section {
   flex-wrap: wrap;
 }
 
-/* Each Box */
+/* Boxes */
 .goal-box {
   background: white;
   padding: 25px;
   border-radius: 12px;
   width: 260px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  text-align: left; /* IMPORTANT: fixes alignment */
+  text-align: left;
   transition: 0.3s;
 }
 
@@ -188,21 +188,17 @@ section {
   transform: translateY(-5px);
 }
 
-/* Headings */
+/* Titles */
 .goal-box h3 {
   margin-bottom: 15px;
   color: #2563eb;
 }
 
-/* List Fix */
-.goal-box ul {
-  list-style: disc;
-  padding-left: 30px; /* keeps bullets correct */
-  margin: 0;
-}
-
-.goal-box li {
-  margin-bottom: 8px;
+/* Text lines */
+.goal-box p {
+  margin: 8px 0;
+  padding-left: 10px;
+  border-left: 3px solid #2563eb; /* nice visual line */
   color: #334155;
 }
 
