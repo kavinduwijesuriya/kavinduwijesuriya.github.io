@@ -9,8 +9,8 @@ body {
 /* ===== NAVBAR ===== */
 nav {
   display: flex;
-  justify-content: space-between;
-  padding: 18px 50px;
+  justify-content: center;
+  padding: 10px 30px;
   background: white;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   position: sticky;
@@ -59,6 +59,25 @@ nav a:hover {
 .hero p {
   font-size: 18px;
   color: #334155;
+}
+
+.hero-image {
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.hero-image img {
+  border: 4px solid transparent;
+  background: linear-gradient(135deg, #2563eb, #ec4899);
+  padding: 4px;
 }
 
 /* ===== BUTTON ===== */
