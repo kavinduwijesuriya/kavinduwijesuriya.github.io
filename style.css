@@ -197,7 +197,7 @@ section {
 /* List Fix */
 .goal-box ul {
   list-style: disc;
-  padding-left: 20px; /* keeps bullets correct */
+  padding-left: 30px; /* keeps bullets correct */
   margin: 0;
 }
 
