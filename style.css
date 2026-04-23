@@ -147,6 +147,23 @@ section {
   margin-bottom: 8px;
   color: #6366f1;
 }
+#goals {
+  text-align: left; /* fix overall alignment */
+  max-width: 800px;
+  margin: auto;
+}
+
+#goals ul {
+  list-style: none;
+  padding: 0;
+}
+
+#goals li {
+  background: #f1f5f9;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
 
 /* ===== FOOTER ===== */
 footer {
